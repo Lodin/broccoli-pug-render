@@ -1,7 +1,7 @@
 {
   "name": "broccoli-pug-render",
   "description": "Render Pug Templates",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Mihail Malo <qm3ster@gmail.com>",
   "main": "index.js",
   "license": "MIT",
