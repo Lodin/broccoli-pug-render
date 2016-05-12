@@ -17,18 +17,18 @@
     "test": "mocha -t 10000"
   },
   "dependencies": {
-    "broccoli-plugin": "^1.0.0",
+    "broccoli-plugin": "^1.2.1",
     "extend": "^3.0.0",
     "pug": "^2.0.0-alpha7",
     "mkdirp": "^0.5.1",
-    "walk-sync": "^0.1.3"
+    "walk-sync": "^0.2.6"
   },
   "devDependencies": {
-    "broccoli": "^0.16.4",
-    "chai": "^3.2.0",
-    "fixturify": "^0.1.1",
-    "mocha": "^2.2.5",
-    "quick-temp": "^0.1.3"
+    "broccoli": "^0.16.9",
+    "chai": "^3.5.0",
+    "fixturify": "^0.2.0",
+    "mocha": "^2.4.5",
+    "quick-temp": "^0.1.5"
   },
   "bugs": {
     "url": "https://github.com/qm3ster/broccoli-pug-render/issues"

@@ -1,4 +1,4 @@
-# broccoli-pug-render [![Build Status](https://travis-ci.org/qm3ster/broccoli-pug-render.svg?branch=master)](https://travis-ci.org/qm3ster/broccoli-pug-render) [![npm version](https://badge.fury.io/js/broccoli-pug-render.svg)](https://www.npmjs.com/package/broccoli-pug-render) [![npm downloads](https://img.shields.io/npm/dm/broccoli-pug-render.svg)](https://www.npmjs.com/package/broccoli-pug-render)
+# broccoli-pug-render [![Build Status](https://travis-ci.org/qm3ster/broccoli-pug-render.svg?branch=master)](https://travis-ci.org/qm3ster/broccoli-pug-render) [![npm version](https://badge.fury.io/js/broccoli-pug-render.svg)](https://www.npmjs.com/package/broccoli-pug-render) [![npm downloads](https://img.shields.io/npm/dm/broccoli-pug-render.svg)](https://www.npmjs.com/package/broccoli-pug-render) [![Dependency Status](https://david-dm.org/qm3ster/broccoli-pug-render.svg)](https://david-dm.org/qm3ster/broccoli-pug-render)
 
 A [broccoli.js](https://github.com/joliss/broccoli) plugin to render [Pug](https://github.com/pugjs/pug) templates.
 
