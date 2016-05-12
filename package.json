@@ -1,7 +1,7 @@
 {
   "name": "broccoli-pug-render",
   "description": "Render Pug Templates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Mihail Malo <qm3ster@gmail.com>",
   "main": "index.js",
   "license": "MIT",
@@ -14,19 +14,21 @@
     "pug"
   ],
   "scripts": {
-    "test": "mocha -t 10000"
+    "test": "mocha -t 10000",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && rm -rf build/temp"
   },
   "dependencies": {
     "broccoli-plugin": "^1.0.0",
     "extend": "^3.0.0",
     "pug": "^2.0.0-alpha7",
     "mkdirp": "^0.5.1",
-    "walk-sync": "^0.1.3"
+    "walk-sync": "^0.2.6"
   },
   "devDependencies": {
     "broccoli": "^0.16.4",
     "chai": "^3.2.0",
-    "fixturify": "^0.1.1",
+    "fixturify": "^0.2.0",
     "mocha": "^2.2.5",
     "quick-temp": "^0.1.3"
   },
