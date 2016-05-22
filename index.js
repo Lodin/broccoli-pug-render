@@ -1,10 +1,10 @@
 var fs = require('fs')
 var path = require('path')
-var mkdirp = require('mkdirp')
+var mkdirp = require('mkdirp').sync
 var Plugin = require('broccoli-plugin')
 var walkSync = require('walk-sync')
-var pug = require('pug');
-var extend = require('extend');
+var pug = require('pug')
+var extend = require('extend')
 
 function Filter(inputNode, options) {
   this.options = extend({}, options);
